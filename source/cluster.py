@@ -22,6 +22,8 @@ from sklearn.externals import joblib
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
+PATH_ROOT_PROJ = '../'
+
 
 def     img_visualize(n_cluster, cluster_folder):
     for i in range(n_cluster):
@@ -51,7 +53,7 @@ def     read(data_path, style_obj):
     df = None
     print "Load %s" % data_path
     df = pd.read_csv(data_path)    
-    imgs = [load_img(img_path) for img_path in df['img_path'] if os.path.exists(img_path)]
+    imgs = [load_img('%s/%s' % (PATH_ROOT_PROJ, img_path)) for img_path in df['img_path'] if os.path.exists(img_path)]
     imgs = [img for img in imgs if img is not None]
     features = np.array([style_obj.get_feature(img) for img in imgs])    
     drop_idx = [i for i in range(len(features)) if features[i] is None]

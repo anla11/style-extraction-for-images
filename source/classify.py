@@ -16,6 +16,7 @@ from sklearn.externals import joblib
 from style_feature import Style_Feature
 from read_path import load_img
 
+PATH_ROOT_PROJ = '../'
 
 def     read_data(data_path, style_obj):
     print ('Reading %s' % (data_path))
@@ -23,7 +24,7 @@ def     read_data(data_path, style_obj):
     index = list(range(len(df)))
     np.random.shuffle(index)
 
-    feature = np.array([style_obj.get_feature(load_img(df['img_path'][i])) for i in index])
+    feature = np.array([style_obj.get_feature(load_img('%s/%s' % (PATH_ROOT_PROJ, df['img_path'][i]))) for i in index])
     label = np.array(df.iloc[index]['label'])
     drop_idx = [i for i in range(len(feature)) if feature[i] is None]
 

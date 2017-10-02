@@ -6,8 +6,8 @@ Created on Tue Sep 26 11:32:28 2017
 @author: anla
 """
 import numpy  as np
-#import sys
-#sys.path.append(".")
+import sys
+sys.path.append(".")
 
 from style_feature import Style_Feature
 

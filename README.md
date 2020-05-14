@@ -1,4 +1,4 @@
-# style_feature_extraction
+# Style Extraction for Images
 Extract style from images
 
 ## Dependencies 
@@ -13,17 +13,21 @@ Extract style from images
   + http://people.csail.mit.edu/torralba/code/spatialenvelope/
   + https://www.quora.com/Computer-Vision-What-is-a-GIST-descriptor
   + https://prateekvjoshi.com/2014/04/26/understanding-gabor-filters/
-- Saliency
 
-## Apps
+## Experiences
 ### Scence Recognition
-    - Data: 2688 images from <link>
+    - Data: 2688 images from [here](http://people.csail.mit.edu/torralba/code/spatialenvelope/)
     - Accuaracy:
-        + GIST
-        + LAB
+        + Torralba's work: 83%.
+        + GIST: 86.25%
+        + GIST-LAB: 88.48%
         
 ### Image Clustering
 
-## Project Structure
-<describe here>
+
+
+https://github.com/anvy1102/style-etraction-for-images/blob/master/source/clustering/.ipynb_checkpoints/Clustering-checkpoint.ipynb
+
+
+
 

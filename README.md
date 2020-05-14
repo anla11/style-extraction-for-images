@@ -1,13 +1,15 @@
 # Style Extraction for Images
 
 Extract feature GIST and LAB from images, then experiments with following tasks:
-	+ Scence Recognition: on [Torralba dataset](http://people.csail.mit.edu/torralba/code/spatialenvelope/) about outdoor images (forest, mountain...)
-	+ Style Recognition: on Flickr dataset about styles of book covers (vintage, romantic...).
-	+ Clustering images
+
++ Scence Recognition: on [Torralba dataset](http://people.csail.mit.edu/torralba/code/spatialenvelope/) about outdoor images (forest, mountain...)
++ Style Recognition: on Flickr dataset about styles of book covers (vintage, romantic...).
++ Clustering images
 
 Using data of movie service, extract GIST and LAB from posters to represent movies. Considering users watch these movies:
-	+ Clustering users
-	+ Recommending movies which are similar in genres to history of users
+
++ Clustering users
++ Recommending movies which are similar in genres to history of users
 
 ## 1. Feature extraction
 

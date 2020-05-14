@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 
 from cluster import read
-from recommendation.recommend import run
+from recommending.recommend import run
 from style_feature import Style_Feature
 
 import matplotlib.pyplot as plt
@@ -98,8 +98,8 @@ def recommend_2(total, data_imgpath, img_rank, cluster_ratio):
 
 def     main(argv):
     f_gist, f_lab = 1, 0
-    cluster_model = '/home/anla/Source/python/style_feature_extraction/cluster/movies/gist_svm/res_32/kmeans_svmgist.plk'
-    processgist_model = '/home/anla/Source/python/style_feature_extraction/classification/sr_models/svm_sr_gist.pkl'
+    cluster_model = 'clusterring/sr_models/kmeans_svmgist.plk'
+    processgist_model = 'classification/sr_models/svm_sr_gist.pkl'
 
     init(f_gist = f_gist, f_lab = f_lab, n_cluster = 32, cluster_model = cluster_model, processgist_model = processgist_model)
 

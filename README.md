@@ -34,8 +34,8 @@ Scripts dowloading data and pre-processing data are provided at source/data_prep
     + GIST:     Train: 92.88%, Test: 86.25%
     + GIST-LAB: Train: 95.12%, Test: 88.48% (feature fusion by SVM)
 
-Check scripts at source/main_classify.py and classification
-        
+Check scripts at [source/classification](https://github.com/anvy1102/style-etraction-for-images/tree/master/source/classification) and [source/main_classify.py](https://github.com/anvy1102/style-etraction-for-images/tree/master/source/main_classify.py)     
+
 ### 3.2 Style Recognition
 
 - Flick dataset
@@ -56,12 +56,11 @@ Running code is similar to 3.1
 
 + Clustering users by GMM
 
-Check scripts at source/clustering and source/main_cluster.py
+Check scripts at [source/clustering](https://github.com/anvy1102/style-etraction-for-images/tree/master/source/clustering) and [source/main_cluster.py](https://github.com/anvy1102/style-etraction-for-images/tree/master/source/main_cluster.py)
 
 ### 3.4 Recommending
 
-Check scripts at source/recommending and source/main_recommend.py
-
+Check scripts at [source/recommending](https://github.com/anvy1102/style-etraction-for-images/tree/master/source/recommending) and [source/main_recommend.py](https://github.com/anvy1102/style-etraction-for-images/tree/master/source/main_recommend.py)     
 ## 4. Dependencies 
 
 - Anaconda4.4 - Python 2.7 (numpy, pandas, matplotlib)
@@ -73,8 +72,10 @@ Check scripts at source/recommending and source/main_recommend.py
 ## Ref	
 - [Recognizing Image Style](https://arxiv.org/abs/1311.3715)
 
-- [Methods for merging Gaussian mixture components](https://doi.org/10.1007/s11634-010-0058-3
-https://www.stat.washington.edu/raftery/Research/PDF/Baudry2010.pdf)
+- [Methods for merging Gaussian mixture components](https://doi.org/10.1007/s11634-010-0058-3)
+
+- [Combining Mixture Components
+for Clustering](https://www.stat.washington.edu/raftery/Research/PDF/Baudry2010.pdf)
 
 
 

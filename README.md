@@ -19,11 +19,11 @@ Using data of movie service, extract GIST and LAB from posters to represent movi
   + https://www.quora.com/Computer-Vision-What-is-a-GIST-descriptor
   + https://prateekvjoshi.com/2014/04/26/understanding-gabor-filters/
 
-Scripts are provided at source/feature_extraction
+Scripts are provided at [source/feature_extraction](https://github.com/anvy1102/style-etraction-for-images/tree/master/source/feature_extraction)
 
 ## 2. Data preparation
 
-Scripts dowloading data and pre-processing data are provided at source/data_preprocessing.		  
+Scripts dowloading data and pre-processing data are provided at Scripts are provided at [source/data_preprocessing](https://github.com/anvy1102/style-etraction-for-images/tree/master/source/data_preprocessing).		  
 
 ## 3. Experiences
 

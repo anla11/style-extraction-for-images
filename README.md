@@ -63,6 +63,7 @@ Check scripts at [source/clustering](https://github.com/anvy1102/style-etraction
 ### 3.4 Recommending
 
 Check scripts at [source/recommending](https://github.com/anvy1102/style-etraction-for-images/tree/master/source/recommending) and [source/main_recommend.py](https://github.com/anvy1102/style-etraction-for-images/tree/master/source/main_recommend.py)     
+
 ## 4. Dependencies 
 
 - Anaconda4.4 - Python 2.7 (numpy, pandas, matplotlib)
@@ -79,7 +80,5 @@ Check scripts at [source/recommending](https://github.com/anvy1102/style-etracti
 - [Combining Mixture Components
 for Clustering](https://www.stat.washington.edu/raftery/Research/PDF/Baudry2010.pdf)
 
-
-
-
-
+# !Update in 2020: 
+My article about a simple method extracting style by neural network is [here](https://langocthuyan.wordpress.com/2020/04/20/neural-algorithm-of-artistic-style-transfer-understanding-and-examples-with-pytorch/).

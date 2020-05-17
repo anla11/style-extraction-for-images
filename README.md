@@ -80,5 +80,5 @@ Check scripts at [source/recommending](https://github.com/anvy1102/style-etracti
 - [Combining Mixture Components
 for Clustering](https://www.stat.washington.edu/raftery/Research/PDF/Baudry2010.pdf)
 
-# !Update in 2020: 
+## !Update in 2020 
 My article about a simple method extracting style by neural network is [here](https://langocthuyan.wordpress.com/2020/04/20/neural-algorithm-of-artistic-style-transfer-understanding-and-examples-with-pytorch/).
